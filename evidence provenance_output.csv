@@ -1,0 +1,25 @@
+Timestamp,Measurement_ID,Baseline_ID,Rule_Version,Evidence_Bundle,Decision_State,Confidence,Route
+00:00,MEAS_001,BASE_V1,RULE_V1,Observed=0.25kW | Expected=0.25kW | Residual=0.00kW | Occupancy=0 | Scheduled=0 | Equipment=OFF | DataQuality=Good,NORMAL,0.9,DECIDE
+01:00,MEAS_002,BASE_V1,RULE_V1,Observed=0.22kW | Expected=0.25kW | Residual=-0.03kW | Occupancy=0 | Scheduled=0 | Equipment=OFF | DataQuality=Good,NORMAL,0.9,DECIDE
+02:00,MEAS_003,BASE_V1,RULE_V1,Observed=0.2kW | Expected=0.25kW | Residual=-0.05kW | Occupancy=0 | Scheduled=0 | Equipment=OFF | DataQuality=Good,NORMAL,0.9,DECIDE
+03:00,MEAS_004,BASE_V1,RULE_V1,Observed=0.2kW | Expected=0.25kW | Residual=-0.05kW | Occupancy=0 | Scheduled=0 | Equipment=OFF | DataQuality=Good,NORMAL,0.9,DECIDE
+04:00,MEAS_005,BASE_V1,RULE_V1,Observed=0.21kW | Expected=0.25kW | Residual=-0.04kW | Occupancy=0 | Scheduled=0 | Equipment=OFF | DataQuality=Good,NORMAL,0.9,DECIDE
+05:00,MEAS_006,BASE_V1,RULE_V1,Observed=0.28kW | Expected=0.28kW | Residual=0.00kW | Occupancy=2 | Scheduled=0 | Equipment=ON | DataQuality=Good,NORMAL,0.9,DECIDE
+06:00,MEAS_007,BASE_V1,RULE_V1,Observed=0.55kW | Expected=0.85kW | Residual=-0.30kW | Occupancy=12 | Scheduled=1 | Equipment=ON | DataQuality=Good,NORMAL,0.9,DECIDE
+07:00,MEAS_008,BASE_V1,RULE_V1,Observed=0.8kW | Expected=0.85kW | Residual=-0.05kW | Occupancy=30 | Scheduled=1 | Equipment=ON | DataQuality=Good,NORMAL,0.9,DECIDE
+08:00,MEAS_009,BASE_V1,RULE_V1,Observed=1.0kW | Expected=0.85kW | Residual=0.15kW | Occupancy=40 | Scheduled=1 | Equipment=ON | DataQuality=Good,NORMAL,0.9,DECIDE
+09:00,MEAS_010,BASE_V1,RULE_V1,Observed=1.1kW | Expected=0.85kW | Residual=0.25kW | Occupancy=45 | Scheduled=1 | Equipment=ON | DataQuality=Good,NORMAL,0.9,DECIDE
+10:00,MEAS_011,BASE_V1,RULE_V1,Observed=1.05kW | Expected=0.85kW | Residual=0.20kW | Occupancy=42 | Scheduled=1 | Equipment=ON | DataQuality=Good,NORMAL,0.9,DECIDE
+11:00,MEAS_012,BASE_V1,RULE_V1,Observed=0.95kW | Expected=0.85kW | Residual=0.10kW | Occupancy=40 | Scheduled=1 | Equipment=ON | DataQuality=Good,NORMAL,0.9,DECIDE
+12:00,MEAS_013,BASE_V1,RULE_V1,Observed=1.0kW | Expected=0.85kW | Residual=0.15kW | Occupancy=43 | Scheduled=1 | Equipment=ON | DataQuality=Good,NORMAL,0.9,DECIDE
+13:00,MEAS_014,BASE_V1,RULE_V1,Observed=0.98kW | Expected=0.85kW | Residual=0.13kW | Occupancy=41 | Scheduled=1 | Equipment=ON | DataQuality=Good,NORMAL,0.9,DECIDE
+14:00,MEAS_015,BASE_V1,RULE_V1,Observed=0.95kW | Expected=0.85kW | Residual=0.10kW | Occupancy=38 | Scheduled=1 | Equipment=ON | DataQuality=Good,NORMAL,0.9,DECIDE
+15:00,MEAS_016,BASE_V1,RULE_V1,Observed=0.92kW | Expected=0.85kW | Residual=0.07kW | Occupancy=35 | Scheduled=1 | Equipment=ON | DataQuality=Good,NORMAL,0.9,DECIDE
+16:00,MEAS_017,BASE_V1,RULE_V1,Observed=0.9kW | Expected=0.85kW | Residual=0.05kW | Occupancy=30 | Scheduled=1 | Equipment=ON | DataQuality=Good,NORMAL,0.9,DECIDE
+17:00,MEAS_018,BASE_V1,RULE_V1,Observed=0.82kW | Expected=0.82kW | Residual=0.00kW | Occupancy=10 | Scheduled=1 | Equipment=ON | DataQuality=Good,NORMAL,0.9,DECIDE
+18:00,MEAS_019,BASE_V1,RULE_V1,Observed=0.65kW | Expected=0.25kW | Residual=0.40kW | Occupancy=0 | Scheduled=0 | Equipment=OFF | DataQuality=Good,POTENTIALLY_ACTIONABLE,0.85,DECIDE
+19:00,MEAS_020,BASE_V1,RULE_V1,Observed=1.15kW | Expected=0.25kW | Residual=0.90kW | Occupancy=0 | Scheduled=0 | Equipment=ON | DataQuality=Good,POTENTIALLY_ACTIONABLE,0.85,DECIDE
+20:00,MEAS_021,BASE_V1,RULE_V1,Observed=0.35kW | Expected=0.25kW | Residual=0.10kW | Occupancy=0 | Scheduled=0 | Equipment=OFF | DataQuality=Good,NORMAL,0.9,DECIDE
+21:00,MEAS_022,BASE_V1,RULE_V1,Observed=0.3kW | Expected=0.25kW | Residual=0.05kW | Occupancy=0 | Scheduled=0 | Equipment=OFF | DataQuality=Good,NORMAL,0.9,DECIDE
+22:00,MEAS_023,BASE_V1,RULE_V1,Observed=0.28kW | Expected=0.25kW | Residual=0.03kW | Occupancy=0 | Scheduled=0 | Equipment=OFF | DataQuality=Good,NORMAL,0.9,DECIDE
+23:00,MEAS_024,BASE_V1,RULE_V1,Observed=0.26kW | Expected=0.25kW | Residual=0.01kW | Occupancy=0 | Scheduled=0 | Equipment=OFF | DataQuality=Good,NORMAL,0.9,DECIDE

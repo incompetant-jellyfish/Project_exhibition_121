@@ -1,0 +1,5 @@
+Case_ID,Context,Evidence,Expected_State,Diagnosis,Recommendation
+CASE_A,"High load, occupied, scheduled",Occupancy present; equipment expected,UNUSUAL,Likely legitimate demand,No immediate escalation; continue monitoring
+CASE_B,"High load, vacant, off-schedule",No occupancy; equipment state unexpected,POTENTIALLY_ACTIONABLE,Possible unnecessary energy use,Inspect equipment and operating schedule
+CASE_C,"High load, occupancy data missing",Context incomplete,INSUFFICIENT_EVIDENCE,Unknown,Obtain or validate occupancy data
+CASE_D,Persistent high load,Independent fault record available,CONFIRMED_ACTIONABLE,Fault supported by independent evidence,Escalate for corrective action
