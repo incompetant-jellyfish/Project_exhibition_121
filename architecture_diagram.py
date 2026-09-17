@@ -1,10 +1,6 @@
 import matplotlib.pyplot as plt
 from matplotlib.patches import FancyBboxPatch, FancyArrowPatch
 
-# ---------------------------------------------------------
-# Architecture Diagram
-# Project: IoT-Enabled Energy Audit and Load Anomaly Detection
-# ---------------------------------------------------------
 
 fig, ax = plt.subplots(figsize=(14, 8))
 ax.set_xlim(0, 14)
@@ -44,33 +40,22 @@ def add_arrow(x1, y1, x2, y2):
     ax.add_patch(arrow)
 
 
-# ---------------------------------------------------------
-# 1. Data Collection
-# ---------------------------------------------------------
 add_box(
     0.5, 7.6, 2.4, 1.1,
     "DATA COLLECTION\nESP32 + PZEM-004T\nRoom-level sensing"
 )
 
-# ---------------------------------------------------------
-# 2. Data Transmission
-# ---------------------------------------------------------
+
 add_box(
     3.6, 7.6, 2.4, 1.1,
     "DATA TRANSMISSION\nWi-Fi / MQTT\nTimestamped readings"
 )
 
-# ---------------------------------------------------------
-# 3. Storage
-# ---------------------------------------------------------
 add_box(
     6.7, 7.6, 2.4, 1.1,
     "DATA STORAGE\nCSV / Database\nHistorical records"
 )
 
-# ---------------------------------------------------------
-# 4. Validation
-# ---------------------------------------------------------
 add_box(
     9.8, 7.6, 2.4, 1.1,
     "VALIDATION\nMissing values\nData quality checks"
@@ -81,66 +66,51 @@ add_arrow(6.0, 8.15, 6.7, 8.15)
 add_arrow(9.1, 8.15, 9.8, 8.15)
 
 
-# ---------------------------------------------------------
-# 5. Baseline
-# ---------------------------------------------------------
+
 add_box(
     1.0, 5.5, 2.6, 1.1,
     "BASELINE\nSchedule-aware expected\nenergy consumption"
 )
 
-# ---------------------------------------------------------
-# 6. Anomaly Detection
-# ---------------------------------------------------------
+
 add_box(
     4.2, 5.5, 2.6, 1.1,
     "ANOMALY DETECTION\nRule-based\nZ-score / Isolation Forest"
 )
 
-# ---------------------------------------------------------
-# 7. Actionability
-# ---------------------------------------------------------
+
 add_box(
     7.4, 5.5, 2.6, 1.1,
     "ACTIONABILITY\nOccupancy + Schedule\nEquipment + Persistence"
 )
 
-# ---------------------------------------------------------
-# 8. Evidence
-# ---------------------------------------------------------
+
 add_box(
     10.6, 5.5, 2.6, 1.1,
     "EVIDENCE\nMeasurement + Baseline\nDeviation + Context"
 )
 
-# Validation to baseline
+
 add_arrow(11.0, 7.6, 2.3, 6.6)
 
-# Baseline -> anomaly -> actionability -> evidence
 add_arrow(3.6, 6.05, 4.2, 6.05)
 add_arrow(6.8, 6.05, 7.4, 6.05)
 add_arrow(10.0, 6.05, 10.6, 6.05)
 
 
-# ---------------------------------------------------------
-# 9. Diagnosis
-# ---------------------------------------------------------
+
 add_box(
     2.0, 3.2, 2.6, 1.1,
     "DIAGNOSIS\nInterpret abnormal use\nas possible cause"
 )
 
-# ---------------------------------------------------------
-# 10. Recommendation
-# ---------------------------------------------------------
+
 add_box(
     5.7, 3.2, 2.6, 1.1,
     "RECOMMENDATION\nEnergy-saving action\nor further investigation"
 )
 
-# ---------------------------------------------------------
-# 11. Confidence / Decision
-# ---------------------------------------------------------
+
 add_box(
     9.4, 3.2, 2.6, 1.1,
     "CONFIDENCE / DECISION\nDECIDE / REVIEW / ABSTAIN"
@@ -151,9 +121,7 @@ add_arrow(4.6, 3.75, 5.7, 3.75)
 add_arrow(8.3, 3.75, 9.4, 3.75)
 
 
-# ---------------------------------------------------------
-# Final outputs
-# ---------------------------------------------------------
+
 add_box(
     3.0, 0.8, 2.8, 1.1,
     "DASHBOARD / ALERTS\nEnergy trends\nAnomaly status"
